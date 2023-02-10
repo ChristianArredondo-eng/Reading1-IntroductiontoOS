@@ -1,0 +1,11 @@
+Typed up by: Christian Arredondo
+1. The main two functions of an operating system is to manage a computers resources and to give a high level view of a hardware's abstraction
+2. Some differences between time sharing and multiprogramming is that time sharing is a  is a variant of multiprogramming using allocated resources in a certain time slot. Multiprogramming allows you to execute multiple processes by looking at the process states and then can switch during that time. Another difference is that in time sharing the process time is shared with multiple users while on multiprogramming underutilization by memory an dprocessor is fixed on the CPU and multiple programs run on the CPU
+3. The idea still live on because every major OS has a family of computers so that each computer offered differs in cost and performance but they all run on the same sofwater and the same OS
+4. If you use kernel mode then the program has unrestricted access to your system resources. In user mode the CPU can only use a subset of instructions and a subset of features. The two modes allow desiners to let the user run in user mode so that they do not have acess to critical instructions.
+5. This makes multiprogramming not as good because this doesn't allow the CPU to be free in working on other processes while one process does the I/O
+6. Two goals that contradict each other could be  that each process is supposed to get an equal amount of resources but on the other hand a goal is for each resource to get focused based on their time to be executed. 
+7. The choices A, C, and D should all be allowed only in kernel mode
+8. The time would be about 20, 25, or 30 msec 
+9. A trap instruction allowss a person to switch from user to kernel mode and choose where you want to start execution in the kernel. 
+10. One advantage of this design is that you can load an executable program in different sections of the memory. Another advange is that the program size can exceed  the size of the machine's memory.
